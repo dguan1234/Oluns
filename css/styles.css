@@ -1,0 +1,153 @@
+  body{
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     background-color: #06283D;
+     color: #CDC2AE;
+    }
+
+
+
+.fade-in {
+  opacity: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+/* navbar */
+
+.navbar {
+  background-color: #CDC2AE;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+/* title section */
+
+#title-section {
+    background-image: url("../assets/background.jpg");
+    background-attachment: fixed;
+    padding: 20rem 0 20rem 0;
+}
+
+.big-heading {
+  color: #ECE5C7;
+  font-weight: 500;
+  font-size: 9rem;
+  letter-spacing: 1.3rem;
+  /* font-family: 'Helvetica', san-sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 3px;
+  padding: 0.5em;
+  border-style: solid;
+  margin: auto 20rem auto 20rem;
+}
+
+/* intro section */
+
+#intro-section {
+  /* background-color: #06283D; */
+  padding-top: 20rem;
+  /* color: #CDC2AE; */
+}
+
+.intro-text {
+margin: auto 30rem;
+}
+
+/* #06283D */
+/* #CDC2AE */
+
+
+.mapLocation {
+  transform: scale(0.8);
+}
+
+
+/* mobs section */
+
+#mobs-section {
+  /* background-color: #06283D; */
+  /* color: #CDC2AE; */
+  line-height: 1.5rem;
+  padding-top: 15rem;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 3%;
+}
+
+.mob-description {
+margin: 3rem;
+}
+
+/* loot section */
+
+#loot-section {
+padding-top: 15rem;
+}
+
+.drop-title {
+  margin-bottom: 1rem;
+
+}
+
+.drop-sec {
+  padding: 2rem;
+}
+
+.popover{
+  max-width: 0;
+   border: 0;
+}
+
+.notes {
+  padding-top: 1rem;
+  line-height: 0.7rem;
+}
+
+
+/* rotation section */
+
+#rotation-section {
+  padding-top: 8rem;
+  padding-Bottom:8rem;
+}
+
+/* attacks section */
+
+#attacks-section {
+  /* padding-top: 5rem; */
+}
+
+.scale-down{
+  transform: scale(0.8);
+}
+
+.nuke{
+  color: red;
+  font-weight: bold;
+}
+
+
+/* footer section */
+
+#footer-section {
+  padding-top: 5rem;
+  background-color: #8CC0DE;
+  width: 100%;
+  height: 10rem;
+  color: 	#101010;
+  font-size: 1rem;
+}
+
+.compass {
+  width: 1rem;
+  height: auto;
+}
