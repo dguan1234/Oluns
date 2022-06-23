@@ -1,11 +1,17 @@
   body{
      font-family: 'Montserrat', sans-serif;
      text-align: center;
-     background-color: #06283D;
      color: #CDC2AE;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+    background-image: url("../assets/background.jpg");
     }
 
-
+.bg-blue{
+  background-color: #06283D;
+}
 
 .fade-in {
   opacity: 0;
@@ -13,6 +19,14 @@
 
 .hidden{
   display: none;
+}
+
+
+.image-adjuster {
+  max-width: 100%;
+height: auto;
+width: auto;
+
 }
 
 
@@ -30,34 +44,41 @@
 /* title section */
 
 #title-section {
-    background-image: url("../assets/background.jpg");
-    background-attachment: fixed;
+
     padding: 20rem 0 20rem 0;
+
+    /* width: 100%;
+    min-height: 100%;
+min-width: 1024px; */
 }
 
 .big-heading {
   color: #ECE5C7;
   font-weight: 500;
-  font-size: 9rem;
+  font-size: 8rem;
   letter-spacing: 1.3rem;
   /* font-family: 'Helvetica', san-sans-serif; */
   font-family: 'Roboto Condensed', sans-serif;
   border: 3px;
   padding: 0.5em;
   border-style: solid;
-  margin: auto 20rem auto 20rem;
+  /* margin: auto 20rem auto 20rem; */
+}
+
+
+@media (max-width: 800px) {
+  .big-heading {
+    font-size: 5rem;
+  }
 }
 
 /* intro section */
 
 #intro-section {
-  /* background-color: #06283D; */
   padding-top: 20rem;
-  /* color: #CDC2AE; */
 }
 
 .intro-text {
-margin: auto 30rem;
 }
 
 /* #06283D */
@@ -72,10 +93,12 @@ margin: auto 30rem;
 /* mobs section */
 
 #mobs-section {
-  /* background-color: #06283D; */
-  /* color: #CDC2AE; */
   line-height: 1.5rem;
   padding-top: 15rem;
+}
+
+.mobs-section-title{
+  padding-bottom: 3rem;
 }
 
 h2 {
@@ -84,9 +107,21 @@ h2 {
 }
 
 .mob-description {
-margin: 3rem;
+padding: 5rem;
 }
 
+.mob-img {
+object-fit: contain;
+max-width: 100%;
+transform: scale(0.8);
+position: relative;
+}
+
+@media (max-width: 1250px) {
+  .mob-card {
+    width: 100%;
+  }
+}
 /* loot section */
 
 #loot-section {
@@ -128,6 +163,7 @@ padding-top: 15rem;
 
 .scale-down{
   transform: scale(0.8);
+
 }
 
 .nuke{

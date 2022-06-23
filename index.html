@@ -10,8 +10,8 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="assets/favicon.ico">
 
-<!-- fontawesome -->
-<script src="https://kit.fontawesome.com/4ae78531e4.js" crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/4ae78531e4.js" crossorigin="anonymous"></script>
 
   <!-- font css -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,28 +66,31 @@
 
 
   <section id="title-section">
-    <h1 class="big-heading hidden">Olun's Valley</h1>
+    <div class="container">
+      <h1 class="big-heading hidden">Olun's Valley</h1>
+    </div>
+
 
   </section>
 
-  <section id="intro-section" class="fade-in">
-    <div class="">
+  <section id="intro-section" class="bg-blue">
+    <div class="fade-in">
       <h2>Introduction</h2>
-      <p class="intro-text">Bro what do I even write here? do i even need an intro?</p>
-            <p>draft:</p>
-          <p>Oluns is a 3 man grindspot located north of Odraxxia.
-            <br> It contains very few but powerful mobs.
-            <br>Recommended Ap and Dp is 300 and 400 but the local residents here grind with less than that
-          </p>
+      <p class="intro-text">
+        Oluns is a 3 man grindspot located north of Odraxxia.
+        <br> It contains very few but powerful mobs.
+        <br>Recommended Ap and Dp is 300 and 400
+        <br>but the local residents here grind with less than that.
+      </p>
 
-      <img class="mapLocation"src="assets/location.JPG" alt="">
+      <img class="scale-down image-adjuster"src="assets/location.JPG" alt="">
 
 
     </div>
 
   </section>
 
-  <section id="mobs-section">
+  <section id="mobs-section" class="bg-blue">
     <div class="mobs-section-title">
       <h2>Mobs</h2>
     </div>
@@ -95,91 +98,92 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mob-card">
           <h3 class="mob-title">Olun's Golem</h3>
-          <img src="assets/oluns-golem.png" alt="oluns-golem">
+          <img class="mob-img"src="assets/oluns-golem.png" alt="oluns-golem">
           <p class="mob-description">Its body consists of highly durable boulders covered in grass, as if grown during a long slumber.
             It boasts an enormous body with powerful movements. Its massive left arm is covered with Thornwood, and can kill intruders with a single blow.</p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mob-card">
           <h3 class="mob-title">Indomitable Golem</h3>
-          <img src="assets/indomitable-golem.png" alt="indomitable-golem">
+          <img class="mob-img"src="assets/indomitable-golem.png" alt="indomitable-golem">
           <p class="mob-description">Its body consists of highly durable boulders covered in grass, as if grown during a long slumber.
             It's known to make downward attacks by utilizing its heavy weight and pointy torso.
-
           </p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mob-card">
           <h3 class="mob-title">Rock Golem</h3>
-          <img src="assets/rock-golem.png" alt="rock-golem">
+          <img class="mob-img"src="assets/rock-golem.png" alt="rock-golem">
           <p class="mob-description">Its body consists of highly durable boulders covered in grass, as if grown during a long slumber.
             It's known to make downward attacks by utilizing its heavy weight and pointy shoulders.</p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mob-card">
           <h3 class="mob-title">Boulder Golem</h3>
-          <img src="assets/boulder-golem.png" alt="boulder-golem">
+          <img class="mob-img"src="assets/boulder-golem.png" alt="boulder-golem">
           <p class="mob-description">Its body consists of highly durable boulders covered in grass, as if grown during a long slumber.
             Be wary of its unpredictable attacks as it can move regardless of its joints.</p>
         </div>
 
       </div>
     </div>
+
   </section>
 
-  <section id="loot-section" class="fade-in">
-    <div class="">
+  <section id="loot-section" class="bg-blue">
+    <div class="fade-in">
       <h2>Loot Table</h2>
-    </div>
-
-    <div class="drop-sec">
-      <h3 class="drop-title">Common Drops</h3>
-      <img data-toggle="popover" class="trash-loot" src="assets/trash-loot.png" alt="trash-loot">
-      <img data-toggle="popover" class="black-stone-armor" src="assets/black-stone-armor.png" alt="black-stone-armor">
-      <img data-toggle="popover" class="black-stone-weapon" src="assets/black-stone-weapon.png" alt="black-stone-weapon">
-      <img data-toggle="popover" class="caphras" src="assets/caphras.png" alt="caphras">
-      <img data-toggle="popover" class="spirit-dust" src="assets/spirit-dust.png" alt="spirit-dust">
-      <img data-toggle="popover" class="olucas" src="assets/olucas.png" alt="olucas">
-      <img data-toggle="popover" class="red-leaf" src="assets/red-leaf.png" alt="red-leaf">
-      <img data-toggle="popover" class="hp-artifact" src="assets/hp-artifact.png" alt="hp-artifact">
-      <img data-toggle="popover" class="earth-stone" src="assets/earth-stone.png" alt="earth-stone">
-      <img data-toggle="popover" class="fire-stone" src="assets/fire-stone.png" alt="fire-stone">
-      <img data-toggle="popover" class="wind-stone" src="assets/wind-stone.png" alt="wind-stone">
-    </div>
-
-    <div class="drop-sec">
-      <h3 class="drop-title">Rare Drops</h3>
-      <img data-toggle="popover" class="right-lung" src="assets/right-lung.png" alt="right-lung">
-      <img data-toggle="popover" class="ring-piece" src="assets/ring-piece.png" alt="ring-piece">
-      <img data-toggle="popover" class="flame" src="assets/flame.png" alt="flame">
-      <img data-toggle="popover" class="left-elv" src="assets/left-elv.png" alt="left-elv">
-      <img data-toggle="popover" class="mid-elv" src="assets/mid-elv.png" alt="mid-elv">
-      <img data-toggle="popover" class="right-elv" src="assets/right-elv.png" alt="right-elv">
-      <div class="notes">
-        <p>Notes:</p>
-        <p>Ring piece only drops from main golem and arm</p>
-        <p>Flame drops from arm only</p>
-        <p>Middle Elviayed drops from boulder golem</p>
-        <p>Bottom Right Elviayed drops from main golem</p>
-        <p>Bottom Left Elviayed drop from unknown</p>
+      <div class="drop-sec">
+        <h3 class="drop-title">Common Drops</h3>
+        <img data-toggle="popover" class="trash-loot" src="assets/trash-loot.png" alt="trash-loot">
+        <img data-toggle="popover" class="black-stone-armor" src="assets/black-stone-armor.png" alt="black-stone-armor">
+        <img data-toggle="popover" class="black-stone-weapon" src="assets/black-stone-weapon.png" alt="black-stone-weapon">
+        <img data-toggle="popover" class="caphras" src="assets/caphras.png" alt="caphras">
+        <img data-toggle="popover" class="spirit-dust" src="assets/spirit-dust.png" alt="spirit-dust">
+        <img data-toggle="popover" class="olucas" src="assets/olucas.png" alt="olucas">
+        <img data-toggle="popover" class="red-leaf" src="assets/red-leaf.png" alt="red-leaf">
+        <img data-toggle="popover" class="hp-artifact" src="assets/hp-artifact.png" alt="hp-artifact">
+        <img data-toggle="popover" class="earth-stone" src="assets/earth-stone.png" alt="earth-stone">
+        <img data-toggle="popover" class="fire-stone" src="assets/fire-stone.png" alt="fire-stone">
+        <img data-toggle="popover" class="wind-stone" src="assets/wind-stone.png" alt="wind-stone">
       </div>
 
+      <div class="drop-sec">
+        <h3 class="drop-title">Rare Drops</h3>
+        <img data-toggle="popover" class="right-lung" src="assets/right-lung.png" alt="right-lung">
+        <img data-toggle="popover" class="ring-piece" src="assets/ring-piece.png" alt="ring-piece">
+        <img data-toggle="popover" class="flame" src="assets/flame.png" alt="flame">
+        <img data-toggle="popover" class="left-elv" src="assets/left-elv.png" alt="left-elv">
+        <img data-toggle="popover" class="mid-elv" src="assets/mid-elv.png" alt="mid-elv">
+        <img data-toggle="popover" class="right-elv" src="assets/right-elv.png" alt="right-elv">
+        <div class="notes">
+          <p>Notes:</p>
+          <p>Ring piece only drops from main golem and arm</p>
+          <p>Flame drops from arm only</p>
+          <p>Middle Elviayed drops from boulder golem</p>
+          <p>Bottom Right Elviayed drops from main golem</p>
+          <p>Bottom Left Elviayed drop from unknown</p>
+        </div>
+      </div>
     </div>
+
+
+
 
   </section>
 
-  <section id="rotation-section">
+  <section id="rotation-section" class="bg-blue">
     <h2>Rotation</h2>
-    <img src="assets/rotation.png" alt="rotation">
+    <img class="image-adjuster scale-down" src="assets/rotation.png" alt="rotation">
     <h6>Credit: Suntukan</h6>
   </section>
 
-  <section id="attacks-section">
+  <section id="attacks-section" class="bg-blue">
 
     <div id="attacks-carousel" class="carousel slide scale-down" data-bs-ride="false" data-bs-interval="false">
-    <h2 class="atk-title">Attack Patterns</h2>
+      <h2 class="atk-title">Attack Patterns</h2>
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#attacks-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#attacks-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -192,7 +196,7 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/chop.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -202,7 +206,7 @@
         </div>
 
         <div class="carousel-item">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/stomp.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -212,7 +216,7 @@
         </div>
 
         <div class="carousel-item">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/slam.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -222,7 +226,7 @@
         </div>
 
         <div class="carousel-item">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/swipe.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -232,7 +236,7 @@
         </div>
 
         <div class="carousel-item">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/breath.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -243,7 +247,7 @@
         </div>
 
         <div class="carousel-item">
-          <video autoplay muted loop>
+          <video autoplay muted loop class="image-adjuster">
             <source src="assets/nuke.mp4" type="video/mp4">
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -270,11 +274,11 @@
 
   <section style="padding: 10rem">
     <h1>to be continued</h1>
-    <img src="assets/bedge.gif" alt="">
+    <img class="image-adjuster scale-down" src="assets/bedge.gif" alt="">
   </section>
 
   <section id="buffs-section">
-<h2>Buffs/Elixirs/Food</h2>
+    <h2>Buffs/Elixirs/Food</h2>
   </section>
 
   <section id="gear-section">
@@ -282,11 +286,11 @@
   </section>
 
 
-<footer id="footer-section">
-<div class="container">
-<p><img class="compass" src="assets/compass.png" alt="">Hystria Discord</p>
-</div>
-</footer>
+  <footer id="footer-section">
+    <div class="container">
+      <p><img class="compass" src="assets/compass.png" alt="">Hystria Discord</p>
+    </div>
+  </footer>
 
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
